@@ -1,0 +1,6 @@
+E18:02:05.547 [Test worker] INFO scloud.rxjava.RxHello - call event=0
+q18:02:05.548 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - on next rx.subjects.UnicastSubject@63c40e74
+[18:02:05.558 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action action event=0
+q18:02:06.541 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - on next rx.subjects.UnicastSubject@69253861
+q18:02:07.541 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - on next rx.subjects.UnicastSubject@328c176a
+p18:02:08.541 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - on next rx.subjects.UnicastSubject@b7a9470

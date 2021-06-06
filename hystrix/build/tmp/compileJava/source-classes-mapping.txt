@@ -1,2 +1,2 @@
-scloud/hystrix/HystrixCommandUsage.java
- scloud.hystrix.HystrixCommandUsage
+scloud/hystrix/HystrixCommandHello.java
+ scloud.hystrix.HystrixCommandHello

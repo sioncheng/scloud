@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="scloud.rxjava.RxHelloTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-06T09:36:31" hostname="SionMacBookPro.local" time="11.103">
+  <properties/>
+  <testcase name="windowTest()" classname="scloud.rxjava.RxHelloTest" time="11.103"/>
+  <system-out><![CDATA[17:36:31.484 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action rx.observers.SafeSubscriber@1609555
+17:36:31.490 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action action  event-0
+17:36:32.469 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action rx.observers.SafeSubscriber@562d0e02
+17:36:33.470 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action rx.observers.SafeSubscriber@71c9d72b
+17:36:34.470 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action rx.observers.SafeSubscriber@4e082387
+17:36:35.472 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action rx.observers.SafeSubscriber@47b7e439
+17:36:36.471 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action rx.observers.SafeSubscriber@6318af1b
+17:36:37.472 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action rx.observers.SafeSubscriber@23925a94
+17:36:38.469 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action rx.observers.SafeSubscriber@74ce3d59
+17:36:39.471 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action rx.observers.SafeSubscriber@79a62e51
+17:36:40.472 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action rx.observers.SafeSubscriber@6f1f76ea
+17:36:41.467 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action rx.observers.SafeSubscriber@63cf2702
+17:36:42.471 [RxComputationScheduler-1] INFO scloud.rxjava.RxHello - action rx.observers.SafeSubscriber@6882f683
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

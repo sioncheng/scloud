@@ -1,2 +1,2 @@
-sloud/hystrix/HystrixCommandUsageTest.java
- sloud.hystrix.HystrixCommandUsageTest
+sloud/hystrix/HystrixCommandHelloTest.java
+ sloud.hystrix.HystrixCommandHelloTest
