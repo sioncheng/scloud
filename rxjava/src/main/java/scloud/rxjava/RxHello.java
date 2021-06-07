@@ -65,23 +65,29 @@ public class RxHello {
     }
 
     public void window() throws Exception {
+        final int max = 10;
         final CountDownLatch countDownLatch = new CountDownLatch(1);
 
         Observable<String> eventStream = Observable.create(new Observable.OnSubscribe<String>() {
-            int c = 0;
             @Override
             public void call(Subscriber<? super String> subscriber) {
-                String e = "event=" + c;
-                log.info("call {}", e);
-                subscriber.onNext(e);
-                if (c++ > 10) {
-                    subscriber.onCompleted();
+                for (int c = 0; c < max; c++) {
+                    String e = "event-" + c;
+                    log.info("call {}", e);
+                    try {
+                        Thread.sleep(800);
+                    } catch (Exception ex) {
+
+                    }
+                    subscriber.onNext(e);
                 }
+                subscriber.onCompleted();
             }
         });
 
         eventStream.window(1, TimeUnit.SECONDS)
                 .subscribe(new Subscriber<Observable<String>>() {
+                    int c = 0;
                     @Override
                     public void onCompleted() {
 
@@ -99,6 +105,10 @@ public class RxHello {
                             @Override
                             public void call(String ss) {
                                 log.info("action action {}", ss);
+                                c++;
+                                if (c >= max) {
+                                    countDownLatch.countDown();
+                                }
                             }
                         });
                     }
