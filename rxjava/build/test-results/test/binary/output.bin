@@ -1,0 +1,7 @@
+<<<<<<< Updated upstream
+=======
+>11:13:44.538 [Test worker] INFO scloud.rxjava.RxHello - hello
+A11:13:44.545 [Test worker] INFO scloud.rxjava.RxHello - next one
+A11:13:44.546 [Test worker] INFO scloud.rxjava.RxHello - next two
+B11:13:44.546 [Test worker] INFO scloud.rxjava.RxHello - completed
+>>>>>>> Stashed changes
