@@ -1,2 +1,8 @@
 scloud/rxjava/RxHelloTest.java
  scloud.rxjava.RxHelloTest
+scloud/rxjava/RxMergeTest.java
+ scloud.rxjava.RxMergeTest
+scloud/rxjava/SingleHelloTest.java
+ scloud.rxjava.SingleHelloTest
+scloud/rxjava/CompletableHelloTest.java
+ scloud.rxjava.CompletableHelloTest
