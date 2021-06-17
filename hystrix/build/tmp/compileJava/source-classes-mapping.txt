@@ -1,2 +1,0 @@
-scloud/hystrix/HystrixCommandHello.java
- scloud.hystrix.HystrixCommandHello

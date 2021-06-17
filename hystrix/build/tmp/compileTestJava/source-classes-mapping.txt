@@ -1,2 +1,0 @@
-sloud/hystrix/HystrixCommandHelloTest.java
- sloud.hystrix.HystrixCommandHelloTest
