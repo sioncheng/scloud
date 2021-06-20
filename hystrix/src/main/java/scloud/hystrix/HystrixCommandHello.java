@@ -2,6 +2,7 @@ package scloud.hystrix;
 
 import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;
+import scloud.common.LogUtil;
 
 public class HystrixCommandHello extends HystrixCommand<String> {
 
@@ -21,8 +22,7 @@ public class HystrixCommandHello extends HystrixCommand<String> {
 
     @Override
     protected String run() throws Exception {
-        System.out.println(" run thread " + Thread.currentThread().getName());
-
+        LogUtil.log("run");
         if (this.exception) {
             throw new RuntimeException("oops");
         } else {

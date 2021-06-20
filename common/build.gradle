@@ -10,13 +10,8 @@ repositories {
 }
 
 dependencies {
-    compile project(":common")
-
-    // https://mvnrepository.com/artifact/com.netflix.hystrix/hystrix-core
-    implementation group: 'com.netflix.hystrix', name: 'hystrix-core', version: '1.5.18'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
-
 }
 
 test {

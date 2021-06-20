@@ -1,4 +1,5 @@
 rootProject.name = 'scloud'
 include 'hystrix'
 include 'rxjava'
+include 'common'
 
